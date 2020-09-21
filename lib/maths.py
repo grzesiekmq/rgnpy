@@ -19,7 +19,7 @@ class Maths():
 	@staticmethod
 	def random_item(array):
 		max = len(array)
-		index = round((random.random() * max))
+		index = round((random() * max))
 
 		item = array[index]
 		return item
